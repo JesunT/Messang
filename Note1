@@ -11,3 +11,6 @@ cv = CountVectorizer(max_features = 1500)
 X = cv.fit_transform(corpus).toarray()
 y = dataset.iloc[:, 1].values
 sdasda
+//
+ERROR: Could not build wheels for box2d-py, which is required to install pyproject.toml-based projects
+
