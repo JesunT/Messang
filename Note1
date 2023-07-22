@@ -13,4 +13,6 @@ y = dataset.iloc[:, 1].values
 sdasda
 //
 ERROR: Could not build wheels for box2d-py, which is required to install pyproject.toml-based projects
-
+//
+ DeprecationWarning: `np.bool8` is a deprecated alias for `np.bool_`.  (Deprecated NumPy 1.24)
+  if not isinstance(terminated, (bool, np.bool8)):
